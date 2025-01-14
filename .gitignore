@@ -1,0 +1,23 @@
+# Ignore SAS log, output, and temporary files
+*.log
+*.lst
+*.sas7bdat
+*.sas7bvew
+*.sas7bcat
+*.sas7bpgm
+*.sas7bdat
+*.sas7bdat.bkup
+
+# Ignore SASStudio temporary files
+*.sas7bdat
+
+# Ignore the credit card dataset file if it's not managed by LFS
+creditcard.csv
+
+# Ignore .DS_Store (macOS system file)
+.DS_Store
+
+# Ignore any IDE or editor configuration files
+.idea/
+.vscode/
+*.swp
